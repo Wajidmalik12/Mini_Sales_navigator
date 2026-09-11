@@ -1,9 +1,6 @@
 def create_lead_record(
     company,
     website,
-    contact,
-    title,
-    linkedin_url,
     industry,
     opportunity,
     case_study=None,
@@ -13,9 +10,6 @@ def create_lead_record(
     return {
         "company": company,
         "website": website,
-        "contact": contact,
-        "title": title,
-        "linkedin_url": linkedin_url,
         "industry": industry,
         "opportunity": opportunity,
         "case_study": case_study,

@@ -79,6 +79,7 @@ Important rules:
   explicitly supported by the provided evidence.
 - Do not recommend specific vendors unless the provided evidence
   specifically supports them.
+- If there is no opportunity then say no opportunity if there 1 then give 1 if there are 2 then give 2 if there are then 3, and 3 is max limit
 
 Company:
 {company}

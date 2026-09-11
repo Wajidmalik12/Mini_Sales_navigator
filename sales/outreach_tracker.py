@@ -1,11 +1,7 @@
 def create_outreach_record(
     company,
     website,
-    contact,
-    title,
-    linkedin_url,
     industry,
-    company_size,
     opportunity,
     existing_systems,
     case_study=None,
@@ -15,21 +11,12 @@ def create_outreach_record(
     return {
         "company": company,
         "website": website,
-        "contact": contact,
-        "title": title,
-        "linkedin_url": linkedin_url,
         "industry": industry,
-        "company_size": company_size,
         "opportunity": opportunity,
         "existing_systems": existing_systems,
         "case_study": case_study,
         "rating": rating,
-        "connection_status": "NOT_SENT",
-        "message_date": None,
-        "follow_up_date": None,
-        "response": None,
-        "notes": None,
-        "next_action": "SEND_CONNECTION_REQUEST"
+
     }
 def update_outreach_record(record, **updates):
 

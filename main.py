@@ -102,9 +102,6 @@ def main():
     lead = create_lead_record(
         company=company,
         website=url,
-        contact="Test Contact",
-        title="CEO",
-        linkedin_url="https://linkedin.com/in/test",
         industry=INDUSTRY,
         opportunity=primary_opportunity,
         case_study=None,
@@ -127,11 +124,7 @@ def main():
     outreach_record = create_outreach_record(
         company=lead["company"],
         website=lead["website"],
-        contact=lead["contact"],
-        title=lead["title"],
-        linkedin_url=lead["linkedin_url"],
         industry=lead["industry"],
-        company_size="Unknown",
         opportunity=lead["opportunity"],
         existing_systems=digital_systems,
         case_study=lead["case_study"],
