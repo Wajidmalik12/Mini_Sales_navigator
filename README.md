@@ -61,7 +61,6 @@ For example:
 
 ```text
 Country: United States
-Keyword: AI
 ```
 
 The system searches the MongoDB collection and retrieves matching company records.
@@ -91,13 +90,6 @@ Example conceptual document:
     "url": "https://example.com"
 }
 ```
-
-The database can be queried using different search parameters such as:
-
-* Country
-* Company keywords
-* Industry
-* Other available company fields
 
 ## 🔄 Outreach Pipeline
 
